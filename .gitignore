@@ -1,0 +1,35 @@
+# Основные папки и файлы, которые нужно игнорировать
+/build/
+/captures/
+.gradle/
+local.properties
+/.idea/
+.DS_Store
+*.iml
+
+# Файлы Gradle
+.gradle/
+build/
+
+# Файлы ProGuard
+*/build/outputs/mapping/release/gcm_mapping_report.txt
+
+# Файлы логов
+logs/
+
+# Файлы тестирования
+test/results/
+test/reports/
+
+# Файлы Android Studio
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/libraries
+
+# Файлы эмулятора
+.android/avd/
+.android/cache/
+
+# Другие временные файлы
+*.log
+*.tmp
